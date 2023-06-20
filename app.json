@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ブラジルについて",
-    "slug": "ブラジルについて",
+    "slug": "burajiru-ni-tsuite",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.jpg",
@@ -21,7 +21,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.GCmedia.burajiru",
+      "package": "com.sodalita.burajirunitsuite",
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.jpg",
         "backgroundColor": "#FF1E46"
@@ -29,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/icon.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "012f0362-3664-40e7-966d-1a26e6fb3f2d"
+      }
     }
   }
 }
